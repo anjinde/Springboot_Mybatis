@@ -27,7 +27,7 @@ start(){
   else
     nohup java -jar $APP_NAME > /dev/null 2>&1 &
     echo "${APP_NAME} is started"
-    tail -fn 100 nohup.out
+    tail -f -n 100 logs/log_info.log
   fi
 }
 
