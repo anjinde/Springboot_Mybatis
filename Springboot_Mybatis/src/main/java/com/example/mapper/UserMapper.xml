@@ -18,7 +18,7 @@
         select
         t.id as id,
         t.name as userName
-        from test
+        from test t
     </select>
 
 
