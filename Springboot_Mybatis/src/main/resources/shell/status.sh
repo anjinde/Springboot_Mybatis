@@ -57,5 +57,5 @@ restart(){
   start
 }
 
-#直接重启
-restart
+#
+status
